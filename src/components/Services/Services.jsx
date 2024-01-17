@@ -26,13 +26,13 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>Our Awesome</span>
         <span>services</span>
-        <spane>
+        <spane className= "jane">
         Discover beauty at our Unisex Store
           <br />
           Elevate your look with us!
         </spane>
         <a href={Resume} download>
-          {/* <button className="button s-button">Download CV</button> */}
+          {/* <button className="button s-button"></button> */}
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -45,6 +45,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
+            className = "card1"
             emoji={HeartEmoji}
             heading={"Glamour Ensemble"}
             detail={

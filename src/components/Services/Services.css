@@ -7,6 +7,7 @@
   margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* left side */
 .awesome {
@@ -14,6 +15,9 @@
   flex-direction: column;
   position: relative;
   /* gap: 20px; */
+}
+.jane {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .awesome > :nth-child(1) {
@@ -39,9 +43,15 @@
 /* right sided */
 .cards {
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .cards > * {
   position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* blur */
