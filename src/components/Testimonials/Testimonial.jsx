@@ -15,7 +15,7 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Janet's Beauty Store is my go-to for all things beauty! The staff is incredibly skilled and attentive. From getting a fabulous braid to trying out their spa services, every visit leaves me feeling pampered and confident. The selection of beauty products is fantastic, and I love the trendy styles they offer. Highly recommended!",
+        "Janet's Beauty Store is my go-to for all things beauty! From getting braids to trying out their spa services, every visit leaves me feeling pampered and confident. Highly recommended!",
     },
     {
       img: profilePic2,
@@ -30,14 +30,14 @@ const Testimonial = () => {
     {
       img: profilePic4,
       review:
-        "Janet's Beauty Store offers a fantastic range of services. I recently tried their hair coloring, and the results were amazing! The stylists are knowledgeable, and they take the time to understand what you want. The store is clean, and they follow strict hygiene standards. I'm looking forward to trying more services in the future.",
+        "Janet's Beauty Store offers a fantastic range of services. I recently tried their hair coloring, and the results were amazing!The store is clean, and they follow strict hygiene standards. I'm looking forward to trying more services in the future.",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
+        <span>Our Customers always get </span>
         <span>The Best Work </span>
         <span>from us...</span>
         <div
